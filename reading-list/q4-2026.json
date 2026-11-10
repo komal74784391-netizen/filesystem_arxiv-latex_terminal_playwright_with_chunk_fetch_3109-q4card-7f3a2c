@@ -1,0 +1,43 @@
+{
+  "quarter": "2026-Q4",
+  "release_id": "2026-Q4",
+  "cards": [
+    {
+      "card_title": "Multiple-Choice Prompt Card",
+      "template_name": "MCQ_TEMPLATE",
+      "paper_id": "P01"
+    },
+    {
+      "card_title": "Chat Reasoning Prompt Card",
+      "template_name": "CHAT_TEMPLATE",
+      "paper_id": "P02"
+    },
+    {
+      "card_title": "Short-Answer Grading Prompt Card",
+      "template_name": "QA_GRADE_TEMPLATE",
+      "paper_id": "P03"
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "P01",
+      "title": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+      "arxiv_id": "1907.10529"
+    },
+    {
+      "paper_id": "P02",
+      "title": "How Can We Know What Language Models Know?",
+      "arxiv_id": "1911.12543"
+    },
+    {
+      "paper_id": "P03",
+      "title": "An Empirical Study on Robustness to Spurious Correlations using Pre-trained Language Models",
+      "arxiv_id": "2007.06778"
+    },
+    {
+      "paper_id": "P04",
+      "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+      "arxiv_id": "2003.10555"
+    }
+  ]
+}
