@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[most]{tcolorbox}
+\definecolor{cardtint}{HTML}{5B7CFA}
+
+\begin{document}
+
+\section*{Prompt Appendix --- 2026 Q4}
+
+\begin{tcolorbox}[colback=cardtint!8,colframe=cardtint,left=2mm,right=2mm,title=\textcolor{black}{\textbf{Prompt Card: Multiple-Choice Prompt Card}}]
+\begin{small}
+Answer the multiple-choice question below.\\Question:\\\{question\}\\Reply with the single option letter only.
+\end{small}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=cardtint!8,colframe=cardtint,left=2mm,right=2mm,title=\textcolor{black}{\textbf{Prompt Card: Chat Reasoning Prompt Card}}]
+\begin{small}
+<|sys|>\\You are a careful mathematical assistant.\\<|user|>\\\{problem\}\\<|assistant|>
+\end{small}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=cardtint!8,colframe=cardtint,left=2mm,right=2mm,title=\textcolor{black}{\textbf{Prompt Card: Short-Answer Grading Prompt Card}}]
+\begin{small}
+You are grading a short answer.\\Reference answer: \{reference\}\\Student answer:\\\{response\}\\Is the student answer correct? Reply YES or NO.
+\end{small}
+\end{tcolorbox}
+
+\begin{thebibliography}{9}
+\bibitem{spanbert2020} SpanBERT: Improving Pre-training by Representing and Predicting Spans. Transactions of the Association for Computational Linguistics, 2020, doi:10.1162/tacl_a_00300.
+\bibitem{how2020} How Can We Know What Language Models Know?. Transactions of the Association for Computational Linguistics, 2020, doi:10.1162/tacl_a_00324.
+\bibitem{an2020} An Empirical Study on Robustness to Spurious Correlations using Pre-trained Language Models. Transactions of the Association for Computational Linguistics, 2020, doi:10.1162/tacl_a_00335.
+\bibitem{electra2020} ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators. International Conference on Learning Representations, 2020, .
+\end{thebibliography}
+
+\end{document}
