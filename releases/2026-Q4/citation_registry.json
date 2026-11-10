@@ -1,0 +1,50 @@
+{
+  "release_id": "2026-Q4",
+  "release_status": "CONDITIONAL",
+  "papers": [
+    {
+      "paper_id": "P01",
+      "title": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+      "citation_key": "spanbert2020",
+      "doi": "10.1162/tacl_a_00300",
+      "volume": "8",
+      "pages": "64-77",
+      "year": 2020,
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "status": "VERIFIED"
+    },
+    {
+      "paper_id": "P02",
+      "title": "How Can We Know What Language Models Know?",
+      "citation_key": "how2020",
+      "doi": "10.1162/tacl_a_00324",
+      "volume": "8",
+      "pages": "423-438",
+      "year": 2020,
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "status": "VERIFIED"
+    },
+    {
+      "paper_id": "P03",
+      "title": "An Empirical Study on Robustness to Spurious Correlations using Pre-trained Language Models",
+      "citation_key": "an2020",
+      "doi": "10.1162/tacl_a_00335",
+      "volume": "8",
+      "pages": "621-633",
+      "year": 2020,
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "status": "VERIFIED"
+    },
+    {
+      "paper_id": "P04",
+      "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+      "citation_key": "electra2020",
+      "doi": "",
+      "volume": "",
+      "pages": "",
+      "year": 2020,
+      "venue": "International Conference on Learning Representations",
+      "status": "NEEDS_MANUAL_REVIEW"
+    }
+  ]
+}
